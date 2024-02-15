@@ -118,3 +118,21 @@ export const ModalBody = styled.img`
     max-height: 90%;
     animation: ${modalOpenAnimation} .5s ease-in-out;
 `;
+
+export const ImageDescription = styled.p`
+    opacity: 0; 
+
+    &.show {
+        opacity: 1;
+    }
+    position: absolute;
+    bottom: 2rem;
+    padding: .5rem;
+    background-color: ${({ theme }) => theme.COLORS.BG};
+    color: ${({ theme }) => theme.COLORS.SELECTION};
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+    transition: opacity .3s;
+`;
