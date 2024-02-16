@@ -343,4 +343,8 @@ export const HamburgerNav = styled.nav`
             animation: ${menuOpenAnimation} .5s ease-in-out;
         }
     }
+
+    @media (min-width: 426px) {
+        display: none;
+    }
 `;
