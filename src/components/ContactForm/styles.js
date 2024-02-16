@@ -17,6 +17,10 @@ export const Container = styled.div`
         margin-bottom: 2rem;
         text-transform: uppercase;
     }
+
+    @media (max-width: 426px) {
+        padding: 12rem 2rem 0;
+    }
 `;
 
 export const Form = styled.form`

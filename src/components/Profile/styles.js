@@ -20,7 +20,7 @@ export const Container = styled.div`
     }
 
     @media (max-width: 426px) {
-        padding: 12rem 3rem;
+        padding: 12rem 3rem 3rem;
 
         p {
             text-indent: 2rem;

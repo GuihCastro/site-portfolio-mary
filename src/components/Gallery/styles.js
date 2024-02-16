@@ -43,7 +43,7 @@ export const Container = styled.main`
     }
 
     @media (max-width: 426px) {
-        padding: 12rem 2rem;
+        padding: 12rem 2rem 2rem;
 
         &::-webkit-scrollbar {
             display: none; 

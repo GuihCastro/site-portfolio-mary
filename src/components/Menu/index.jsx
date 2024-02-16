@@ -128,6 +128,41 @@ export function Menu() {
                         </a>
                     </li>
                 </ExternalLinks>
+
+                <ShareModal className={onShare ? 'onShare' : ''}>
+                    <ShareCard>
+                        <button className="close" onClick={() => setOnShare(false)}><IoClose /></button>
+
+                        <h3>Share</h3>
+
+                        <div className="icons">
+                            <LinkedinShareButton url={pageUrl}>
+                                <LinkedinIcon size={46} round />
+                            </LinkedinShareButton>
+
+                            <TwitterShareButton url={pageUrl}>
+                                <TwitterIcon size={46} round />
+                            </TwitterShareButton>
+
+                            <FacebookShareButton url={pageUrl}>
+                                <FacebookIcon size={46} round />
+                            </FacebookShareButton>
+                        </div>
+
+                        <div className="link">
+                            <input
+                                type="text"
+                                name="pageLink"
+                                id="pageLink"
+                                value={pageUrl}
+                                readOnly
+                            />
+                            <label htmlFor="pageLink">
+                                <button onClick={handleCopyLink}>Copy</button>
+                            </label>
+                        </div>
+                    </ShareCard>
+                </ShareModal>
             </HamburgerNav>
         </>
     );
