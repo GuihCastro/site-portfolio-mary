@@ -14,6 +14,8 @@ export const Container = styled.div`
     p {
         max-width: 70rem;
         text-indent: 4rem;
+        letter-spacing: .1rem;
+        line-height: 1.2;
         /* text-align: justify; */
     }
 `;

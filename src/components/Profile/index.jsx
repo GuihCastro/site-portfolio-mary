@@ -21,7 +21,7 @@ export function Profile() {
             </p>
 
             <p>
-                Furthermore, I allocate a portion of my time to a social mentoring project, where I share the knowledge I have built in my journey with other aspiring artists, aiming to help them find and build their own paths.
+                Furthermore, I allocate a portion of my time to a social mentorship program, where I share the knowledge I have built in my journey with other aspiring artists, aiming to help them find and build their own paths.
             </p>
         </Container>
     );

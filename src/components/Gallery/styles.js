@@ -132,6 +132,8 @@ export const ImageDescription = styled.p`
     color: ${({ theme }) => theme.COLORS.SELECTION};
     font-size: 2rem;
     text-align: center;
+    letter-spacing: .1rem;
+    line-height: 1.2;
     z-index: 1;
     transition: opacity .3s;
 `;
