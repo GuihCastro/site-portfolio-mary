@@ -12,9 +12,10 @@ export const Container = styled.div`
     align-items: center;
 
     > h2 {
-        font-size: 3rem;
+        font-size: 2rem;
         letter-spacing: .2rem;
         margin-bottom: 2rem;
+        text-transform: uppercase;
     }
 `;
 
@@ -49,7 +50,7 @@ export const Form = styled.form`
         border-radius: .5rem;
         background-color: ${({ theme }) => theme.COLORS.TEXT};
         color: ${({ theme }) => theme.COLORS.BACKGROUND};
-        font-size: 2rem;
+        font-size: 1.6rem;
         letter-spacing: .2rem;
         font-weight: bold;
         text-transform: uppercase;
