@@ -132,7 +132,6 @@ export const ImageDescription = styled.p`
     color: ${({ theme }) => theme.COLORS.SELECTION};
     font-size: 2rem;
     text-align: center;
-    font-weight: bold;
     z-index: 1;
     transition: opacity .3s;
 `;
