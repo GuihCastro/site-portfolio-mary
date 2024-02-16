@@ -12,7 +12,7 @@ export const Container = styled.div`
     height: 100%;
 
     p {
-        max-width: 50rem;
+        max-width: 70rem;
         text-indent: 4rem;
         /* text-align: justify; */
     }
