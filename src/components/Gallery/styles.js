@@ -41,6 +41,14 @@ export const Container = styled.main`
     &::-webkit-scrollbar-thumb:hover {
         background: ${({ theme }) => theme.COLORS.SELECTION};
     }
+
+    @media (max-width: 426px) {
+        padding: 2rem;
+
+        &::-webkit-scrollbar {
+            display: none; 
+        }
+    }
 `;
 
 export const GalleryItem = styled.img`
