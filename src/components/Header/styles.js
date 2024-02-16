@@ -11,6 +11,13 @@ export const Container = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    @media (max-width: 426px) {
+        position: fixed;
+        background-color: ${({ theme }) => theme.COLORS.BG};
+        box-shadow: 0 0 10px ${({ theme }) => theme.COLORS.BG};
+    }
+    
 `;
 
 export const TitleWrapper = styled.div`

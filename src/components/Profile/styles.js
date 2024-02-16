@@ -18,6 +18,14 @@ export const Container = styled.div`
         line-height: 1.2;
         /* text-align: justify; */
     }
+
+    @media (max-width: 426px) {
+        padding: 12rem 3rem;
+
+        p {
+            text-indent: 2rem;
+        }
+    }
 `;
 
 export const ImgWrapper = styled.div`

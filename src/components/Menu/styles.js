@@ -229,7 +229,7 @@ export const ShareCard = styled.div`
 `;
 
 export const HamburgerButton = styled.button`
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 3rem;
     right: 5rem;
@@ -325,7 +325,7 @@ export const HamburgerNav = styled.nav`
         }
 
         &.menuOpen {
-            position: absolute;
+            position: fixed;
             top: 10rem;
             right: 0;
 
