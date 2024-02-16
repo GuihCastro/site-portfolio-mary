@@ -1,5 +1,6 @@
 import { BsShareFill, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { FaArtstation } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { Container, InternalLinks, ExternalLinks } from "./styles";
 
 export function Menu() {
@@ -7,9 +8,9 @@ export function Menu() {
         <Container>
             <nav>
                 <InternalLinks>
-                    <li><a>Portfolio</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
+                    <li><Link to="/">Portfolio</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </InternalLinks>
 
                 <ExternalLinks>

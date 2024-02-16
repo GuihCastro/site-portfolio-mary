@@ -32,6 +32,20 @@ export const InternalLinks = styled.ul`
 
     > li {
         letter-spacing: .1rem;
+
+        a {
+            color: ${({ theme }) => theme.COLORS.TEXT};
+            cursor: pointer;
+            transition: filter .2s;
+        }
+
+        a:hover {
+            filter: brightness(.9);
+        }
+
+        a:hover {
+            color: ${({ theme }) => theme.COLORS.SELECTION};
+        }
     }
 `;
 
