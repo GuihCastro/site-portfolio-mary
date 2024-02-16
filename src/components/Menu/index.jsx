@@ -15,9 +15,24 @@ export function Menu() {
 
                 <ExternalLinks>
                     <li><a><BsShareFill /></a></li>
-                    <li><a><BsInstagram /></a></li>
-                    <li><a><BsLinkedin /></a></li>
-                    <li><a><FaArtstation /></a></li>
+
+                    <li>
+                        <a href="https://www.instagram.com/marilivraes/" target="_blank">
+                            <BsInstagram />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/mariana-livraes-12790ba0/" target="_blank">
+                            <BsLinkedin />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.artstation.com/marilivraes" target="_blank">
+                            <FaArtstation />
+                        </a>
+                    </li>
                 </ExternalLinks>
             </nav>
         </Container>

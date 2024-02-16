@@ -58,5 +58,19 @@ export const ExternalLinks = styled.ul`
 
     > li {
         font-size: 2rem;
+
+        a {
+            color: ${({ theme }) => theme.COLORS.TEXT};
+            cursor: pointer;
+            transition: filter .2s;
+        }
+
+        a:hover {
+            filter: brightness(.9);
+        }
+
+        a:hover {
+            color: ${({ theme }) => theme.COLORS.SELECTION};
+        }
     }
 `;
