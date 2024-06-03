@@ -1,6 +1,6 @@
 # Site Portfólio Artístico
 
-![Site no ar](./assets/screenshot.png)
+![Site no ar](./src/assets/screenshot.png)
 
 Este repositório contém o código fonte do site de portfólio artístico desenvolvido para a artista Mariana Livraes. O site foi criado para exibir suas obras e permitir a interação com os visitantes.
 
